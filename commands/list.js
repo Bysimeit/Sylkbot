@@ -13,7 +13,7 @@ module.exports = {
         let data = await response.json();
 
         if (data.online === true) {
-            if (data.players.list.length <= 0) {
+            if (data.players.online <= 0) {
                 let Embed = new Discord.EmbedBuilder()
                 .setColor("#4E8852")
                 .setTitle("Liste des joueurs connectés : ")
