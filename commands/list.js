@@ -44,7 +44,7 @@ module.exports = {
             .setColor("#4E8852")
             .setTitle("Liste des joueurs connectés : ")
             .setThumbnail(bot.user.displayAvatarURL({dynamic: true}))
-            .setDescription(`Le serveur mineacraft est hors-ligne.`)
+            .setDescription(`Le serveur minecraft est hors-ligne.`)
             .setTimestamp()
             .setFooter({text: "Sylkbot"});
 
